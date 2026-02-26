@@ -1,0 +1,1813 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+	<assemblyIdentity
+		version="1.0.0.0"
+		processorArchitecture="X86"
+		name="Sample.exe"
+		type="win32" />
+	<description>Reg-Free COM</description>
+	<file name="CLCommunication.dll">
+		<comClass
+			clsid="{9739DAD2-AA6F-11D6-B71D-000103451488}"
+			progid="nta.CLCCommunication"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9739DAD4-AA6F-11D6-B71D-000103451488}"
+			progid="nta.CLCDisplayIdConversion"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{1750E7C5-8E2C-4668-9E8E-AD11088B3609}"
+			progid="nta.CLCHttpRequestJSON"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9739DADA-AA6F-11D6-B71D-000103451488}"
+			progid="nta.CLCHttpRequestSU00S010"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6F50DA8-AAB1-11D6-B71E-000103451488}"
+			progid="nta.CLCHttpRequestSU00S020"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA96D-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S030"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA975-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S040"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA97D-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S050"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6F50DAC-AAB1-11D6-B71E-000103451488}"
+			progid="nta.CLCHttpRequestSU00S060"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8123C3D2-AB32-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S070"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8123C3DC-AB32-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S080"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA981-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S090"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA985-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S100"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA989-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S140"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA98D-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S150"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA968-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S160"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6F50DA4-AAB1-11D6-B71E-000103451488}"
+			progid="nta.CLCHttpRequestSU00S180"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA991-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S190"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8123C3D8-AB32-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S200"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA971-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S210"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{BC2CC294-AB64-11D6-B720-000103451488}"
+			progid="nta.CLCHttpRequestSU00S240"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA979-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpRequestSU00S250"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2D068E59-13C4-4EFC-B8BF-ED0F22D88485}"
+			progid="nta.CLCommunication.CLCHttpRequestSU00S280"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{56FC6722-F7B3-4DCF-A416-41EFB0EB3910}"
+			progid="nta.CLCHttpRequestSU00S290"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{5FD69370-49AA-43CF-9A6D-BEE18A29F9A0}"
+			progid="nta.CLCHttpRequestSU00S300"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E78FACE9-8067-4FA6-9406-FF0E6C97147B}"
+			progid="nta.CLCHttpRequestSU00S310"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9DF6F02B-743C-4f68-9A88-B15906BAA028}"
+			progid="nta.CLCHttpRequestSU00S330"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{7217B06E-9EFD-4544-8B54-B4AA0AB969FE}"
+			progid="nta.CLCHttpRequestSU00S340"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E795067D-F214-4d36-BE30-38BAF1874ED8}"
+			progid="nta.CLCHttpRequestSU00S350"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{C55BA310-1D5B-416d-8E3D-51FBAE29F364}"
+			progid="nta.CLCHttpRequestSU00S360"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2C8EB64A-521C-47A2-AA8D-50C139C44396}"
+			progid="nta.CLCHttpRequestSU00S400"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{1500A86B-C186-4B0E-AAEE-0D031A118E0E}"
+			progid="nta.CLCHttpRequestSU00S420"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{C1E8993F-F490-4735-8CA8-3E9EF3404F09}"
+			progid="nta.CLCHttpRequestSU00S430"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9E577FAB-BB08-4766-868B-D568FAF21D14}"
+			progid="nta.CLCHttpRequestSU00S450"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{6D586A2A-D82D-44ca-96B4-F182E0E00474}"
+			progid="nta.CLCHttpRequestSU00S490"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{74BF5E5D-0552-44dd-985D-46327FE72C64}"
+			progid="nta.CLCHttpRequestSU00S660"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{BE8F7BA2-F43C-4955-AAB3-FEC306807C6F}"
+			progid="nta.CLCHttpRequestSU00S670"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8B60C670-E5BB-4d85-BF56-61360FF50A26}"
+			progid="nta.CLCHttpRequestSU00S680"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{320B90B8-94CE-4241-90D4-225334568B4D}"
+			progid="nta.CLCHttpRequestSU00S690"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{378B58A3-B915-4df8-A70A-EDAF9DBB195F}"
+			progid="nta.CLCHttpRequestSU00S700"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{63213003-832B-4c64-92E7-A27B42EE09F8}"
+			progid="nta.CLCHttpRequestSU00S710"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{36EEAE62-7A17-4479-B2A0-85C3BC799BFB}"
+			progid="nta.CLCHttpRequestSU00S750"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6146C19-9D65-4936-BED4-034B4349ED34}"
+			progid="nta.CLCHttpRequestSU00S760"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{6E570C56-7C57-4426-B492-D1943FD89A6E}"
+			progid="nta.CLCHttpRequestSU00S770"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{1843195F-A1F5-4b49-A490-C8EB72CD87A2}"
+			progid="nta.CLCHttpRequestSU00S780"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{0B143159-1920-4e2c-ACF2-C884BA5C15E1}"
+			progid="nta.CLCHttpRequestSU00S790"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{18F1A55D-9483-4676-A370-94A512AB108D}"
+			progid="nta.CLCHttpRequestSU00S800"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CCDDDD32-5E4F-44c2-86BB-C2F5AE18C9D3}"
+			progid="nta.CLCHttpRequestSU00S810"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{746E3B85-A76C-4bdb-A792-E9F2BCC906FA}"
+			progid="nta.CLCHttpRequestSU00S820"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{3426E5DA-2C85-4834-AFFB-1853D0F72CA7}"
+			progid="nta.CLCHttpRequestSU00S830"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8E2FA254-3C72-4391-8C7E-3E2BE4BB53E5}"
+			progid="nta.CLCHttpRequestSU00S870"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{DA0FD856-8781-4ff3-A5FE-99DEF4CDD64A}"
+			progid="nta.CLCHttpRequestSU00S880"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{D10C255B-4FD0-4487-922A-5CD509200A18}"
+			progid="nta.CLCHttpRequestSU00S890"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{88A86473-560B-45e9-B332-96DD7EA148CD}"
+			progid="nta.CLCHttpRequestSU00S900"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{AAC1E79C-96AE-4c20-A9A1-4A1B8C7166E3}"
+			progid="nta.CLCHttpRequestSU00S910"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{0E488586-94E7-4407-BEE5-3D982F77711C}"
+			progid="nta.CLCHttpRequestSU00S920"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{BC87A01C-2060-4ab5-B34D-16E1BFF4A850}"
+			progid="nta.CLCHttpRequestSU00S930"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{59DCA9AF-76C6-4534-8535-0D52519667B7}"
+			progid="nta.CLCHttpRequestSU00S940"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{5ACF3094-B318-4ead-9B8B-AA5A26F59C4E}"
+			progid="nta.CLCHttpRequestSU00S970"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{3A895F7D-C6DA-4476-8CD3-6986DAE6112D}"
+			progid="nta.CLCHttpRequestSU00S980"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2CF49F52-B799-4116-B977-97A2F8661A6A}"
+			progid="nta.CLCHttpRequestSU00SA10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{36A294BE-C756-4eb9-AF8C-080EA2F44CB7}"
+			progid="nta.CLCHttpRequestSU00SA20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{BBE23898-0EB9-4aaf-A926-F0F6E9F23681}"
+			progid="nta.CLCHttpRequestSU00SA30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9722CE21-9659-4A89-9AE9-EB1C85F4F417}"
+			progid="nta.CLCHttpRequestSU00SB10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{FDA5C21B-EA8E-457D-AC3F-38023AFCE6AC}"
+			progid="nta.CLCHttpRequestSU00SB20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{712BA3E8-3415-4A47-91A5-8CE4354E1280}"
+			progid="nta.CLCHttpRequestSU00SB30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{D17507B2-0820-4b41-9EC0-D8D7AFDC7387}"
+			progid="nta.CLCHttpRequestSU00SB40"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{6BE002EB-DD1F-456e-B035-DCB99BCE7C77}"
+			progid="nta.CLCHttpRequestSU00SB50"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9F2FAC4D-7CCB-4349-B372-195127C7A24D}"
+			progid="nta.CLCHttpRequestSU00SB60"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{15228D36-267B-48a0-8206-D186F662AAFE}"
+			progid="nta.CLCHttpRequestSU00SD10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B901D543-45D5-452F-A08C-A4D13BF5B3D0}"
+			progid="nta.CLCHttpRequestSU00SG10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{FF5A778C-AB14-4A12-BB9E-DAA483A5A923}"
+			progid="nta.CLCHttpRequestSU00SG20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{7476F800-2483-4CFA-AE94-5D429518BC79}"
+			progid="nta.CLCHttpRequestSU00SH10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{C4336E2E-29C5-4646-A541-D7C436B95223}"
+			progid="nta.CLCHttpRequestSU00SH20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{646DE432-7172-4708-B8CF-A1C9D614CC3F}"
+			progid="nta.CLCHttpRequestSU00SH30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{D35B90C6-A388-4FA7-828A-3FF8C02D66FA}"
+			progid="nta.CLCHttpRequestSU00SH40"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9DD162E1-D827-4BE5-B28D-5F37012D2AC7}"
+			progid="nta.CLCHttpRequestSU00SH50"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B88293CF-F9E0-41BC-B05D-04B59040599E}"
+			progid="nta.CLCHttpRequestSU00SI10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{62794042-394D-49B5-B2B2-F1AA15EE9792}"
+			progid="nta.CLCHttpRequestSU00SI20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B752466F-D498-43C1-812C-F83218C7F541}"
+			progid="nta.CLCHttpRequestSU00SI30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{783BFB31-919F-4677-B773-36443180F9CB}"
+			progid="nta.CLCHttpRequestSU00SJ10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{82607D95-14D1-4846-AA1E-AD3D82713A45}"
+			progid="nta.CLCHttpRequestSU00SK10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8530238F-50C0-4491-9503-F1F07FE1829E}"
+			progid="nta.CLCHttpRequestSU00SK20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{992B4632-94EB-4770-A494-5DADD292BAA5}"
+			progid="nta.CLCHttpRequestSU00SK30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E15B7170-0208-44F9-9237-639E3C41BAB6}"
+			progid="nta.CLCHttpRequestSU00SM10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{FBB8489B-73D6-4CCB-B3BA-760A08071403}"
+			progid="nta.CLCHttpRequestSU00SM20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{F3F96FCB-6860-44AF-9F5D-3A1F2EC732A8}"
+			progid="nta.CLCHttpRequestSU00SM30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{5A89A7D3-BE56-4894-AB6F-A0CB86989FFC}"
+			progid="nta.CLCHttpRequestSU00SO10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{651B4FD4-4369-4893-B69D-81F1099199B5}"
+			progid="nta.CLCHttpRequestXE00S010"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{3C79FDE1-CCEF-47b0-AB87-1091305334B2}"
+			progid="nta.CLCHttpResponseJSON"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B42B6737-A80C-4275-AA07-C8878445EDAC}"
+			progid="nta.CLCHttpResponseJznChkKekka"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{631441AC-1D36-4F7D-92B5-CE57E133EB4A}"
+			progid="nta.CLCHttpResponseJznChkSzkTaxKekka"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9739DADF-AA6F-11D6-B71D-000103451488}"
+			progid="nta.CLCHttpResponseSU00S010"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6F50DAA-AAB1-11D6-B71E-000103451488}"
+			progid="nta.CLCHttpResponseSU00S020"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA96F-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S030"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA977-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S040"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA97F-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S050"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6F50DAE-AAB1-11D6-B71E-000103451488}"
+			progid="nta.CLCHttpResponseSU00S060"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8123C3D4-AB32-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S070"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA966-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S080"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA983-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S090"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA987-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S100"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA98B-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S140"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA98F-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S150"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA96B-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S160"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E6F50DA6-AAB1-11D6-B71E-000103451488}"
+			progid="nta.CLCHttpResponseSU00S180"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA993-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S190"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8123C3DA-AB32-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S200"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA973-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S210"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{BC2CC296-AB64-11D6-B720-000103451488}"
+			progid="nta.CLCHttpResponseSU00S240"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CF6DA97B-AB3B-11D6-B71F-000103451488}"
+			progid="nta.CLCHttpResponseSU00S250"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{A04390CF-9F48-4F6D-84A9-B5EC237050DA}"
+			progid="nta.CLCHttpResponseSU00S260"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{60D6FEFA-BB05-448B-999B-75DD2D339A7F}"
+			progid="nta.CLCHttpResponseSU00S270"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{29DFCC24-36AC-4B28-873A-2B40162725D4}"
+			progid="nta.CLCommunication.CLCHttpResponseSU00S280"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2B31C68E-5CB2-408C-A819-10256D91CDE6}"
+			progid="nta.CLCHttpResponseSU00S290"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{819F6D52-428B-45EE-B132-84DA99C5838D}"
+			progid="nta.CLCHttpResponseSU00S300"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{3F9E1D56-1748-4150-A864-FED8B794F994}"
+			progid="nta.CLCHttpResponseSU00S310"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{1B492EC9-88EB-465f-BFFF-F813ACE6821E}"
+			progid="nta.CLCHttpResponseSU00S330"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{5D8022DA-057B-43c8-9EE9-E23E66CA9547}"
+			progid="nta.CLCHttpResponseSU00S340"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{36A1DDC8-8E78-479b-884F-0137FC0DC97A}"
+			progid="nta.CLCHttpResponseSU00S350"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{9C84EC2B-6CEB-4ff9-B02B-0A27F8D9FCF8}"
+			progid="nta.CLCHttpResponseSU00S360"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{61CDC34B-B9CA-40CF-9320-25279072C25E}"
+			progid="nta.CLCHttpResponseSU00S400"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{59BEFFAE-17F2-4A31-96D1-558ABC929262}"
+			progid="nta.CLCHttpResponseSU00S420"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{D19936ED-71A9-4456-BB8E-D2F5EA3025D2}"
+			progid="nta.CLCHttpResponseSU00S430"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{DDA6B69D-32C1-4265-B8B9-2D33406FC964}"
+			progid="nta.CLCHttpResponseSU00S450"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{54B43707-27CB-4fc7-A2BD-5CFACBC36678}"
+			progid="nta.CLCHttpResponseSU00S490"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E1A7E7E2-AAD0-4b87-89E1-59729F4A722C}"
+			progid="nta.CLCHttpResponseSU00S660"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E94F96A7-0A92-4003-AB22-D6E1D31B6605}"
+			progid="nta.CLCHttpResponseSU00S670"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{760555F2-3B8D-4e0b-84F7-1F029BB7CF53}"
+			progid="nta.CLCHttpResponseSU00S680"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{A1BE031C-5373-4101-A6F5-67090DF102D1}"
+			progid="nta.CLCHttpResponseSU00S690"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{EBA9C8E6-2B4A-45b3-A75A-D7164F58C4E6}"
+			progid="nta.CLCHttpResponseSU00S700"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{DF8FFD31-BF5B-4607-B3A3-ECB7BA0F3F56}"
+			progid="nta.CLCHttpResponseSU00S710"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{6A8B00DE-F990-4450-B1DB-08B62DC38E49}"
+			progid="nta.CLCHttpResponseSU00S750"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{03D95424-1207-4855-8145-DA905ECFEC88}"
+			progid="nta.CLCHttpResponseSU00S760"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{229BE13D-9F82-4b03-B12C-BCD332A6263F}"
+			progid="nta.CLCHttpResponseSU00S770"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{7536EBBC-1685-4eae-A178-093B89D5CDCB}"
+			progid="nta.CLCHttpResponseSU00S780"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{EFFFA53F-F16A-407a-85E9-243C93CCFAE9}"
+			progid="nta.CLCHttpResponseSU00S790"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{ED8A08D3-52AF-4969-89B7-ED98E68A8096}"
+			progid="nta.CLCHttpResponseSU00S800"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{E5A47515-F4C2-4356-9DF3-1BC1F0BF1EB5}"
+			progid="nta.CLCHttpResponseSU00S810"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{08838826-22FA-45a1-A901-6953D8AA1AC4}"
+			progid="nta.CLCHttpResponseSU00S820"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{207DAF7C-61B1-4f51-B7EA-4BF9EA93C83D}"
+			progid="nta.CLCHttpResponseSU00S830"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B66D60AD-8632-4cae-B5CD-5EBF57FB2B53}"
+			progid="nta.CLCHttpResponseSU00S870"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2905E109-8D41-472a-A03D-D783A0176BA2}"
+			progid="nta.CLCHttpResponseSU00S880"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{C0EDA79E-62AB-40cd-8C7E-40DB54ABB4DE}"
+			progid="nta.CLCHttpResponseSU00S890"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B3EE8851-03B8-416e-A51E-BCA2CF759336}"
+			progid="nta.CLCHttpResponseSU00S900"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{502DD630-95D8-4a27-84D4-5878D8C1F60B}"
+			progid="nta.CLCHttpResponseSU00S910"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2FB1A102-2A78-418d-8D39-7A392C495F5E}"
+			progid="nta.CLCHttpResponseSU00S920"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{BFA5388E-8D6D-4961-831A-0F80E483E696}"
+			progid="nta.CLCHttpResponseSU00S930"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{FBECC6C7-94E2-49a0-A0DC-13241C62A097}"
+			progid="nta.CLCHttpResponseSU00S940"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{89B88229-91E2-4fdf-923D-FB8F08994984}"
+			progid="nta.CLCHttpResponseSU00S970"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{317C5874-C9E3-4901-8F77-3B6E0E101DD6}"
+			progid="nta.CLCHttpResponseSU00S980"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{0E363378-378C-4439-9A2C-15EA849EF62A}"
+			progid="nta.CLCHttpResponseSU00SA10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{301F44D4-9033-4a45-88D6-EE52FE0F8E72}"
+			progid="nta.CLCHttpResponseSU00SA20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CA298637-AC2D-4cae-8BA2-6AAF68152B44}"
+			progid="nta.CLCHttpResponseSU00SA30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{508E53D2-84C5-41E4-B3FC-86DC7927BEB2}"
+			progid="nta.CLCHttpResponseSU00SB10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2468B140-3E56-4496-9CAF-07D698216E57}"
+			progid="nta.CLCHttpResponseSU00SB20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{F6F94AC5-C424-47E1-8708-04B6F9977DC3}"
+			progid="nta.CLCHttpResponseSU00SB30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{EEC64E30-8B69-410a-8F1B-136744732C56}"
+			progid="nta.CLCHttpResponseSU00SB40"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{0B1EC6FF-5E03-4fb5-9634-0FA5C9089B66}"
+			progid="nta.CLCHttpResponseSU00SB50"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{23300BA6-BF5F-42dc-B48C-C1FC8E42FDC9}"
+			progid="nta.CLCHttpResponseSU00SB60"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{D636E736-ABB3-4370-B3A9-F01B416C880A}"
+			progid="nta.CLCHttpResponseSU00SD10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{3F5DCFF1-8965-44FF-BCB2-0B3BF31011D8}"
+			progid="nta.CLCHttpResponseSU00SG10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{F4B7EEE3-22E6-48E3-B91A-88AE6725804F}"
+			progid="nta.CLCHttpResponseSU00SG20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B3602F53-C306-47C6-99DA-A64359A6F266}"
+			progid="nta.CLCHttpResponseSU00SH10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{1B844F5C-CCB3-4C02-BE19-E12FC9B3790D}"
+			progid="nta.CLCHttpResponseSU00SH20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{69EB5467-8CAB-45F3-BC51-21F62CEDBBF1}"
+			progid="nta.CLCHttpResponseSU00SH30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{F1760CC1-BD68-44C6-A185-8CAA8D704FA8}"
+			progid="nta.CLCHttpResponseSU00SH40"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{A3676CE0-A42B-4296-9368-3A818297CE73}"
+			progid="nta.CLCHttpResponseSU00SH50"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{5365D786-5115-4DB1-A147-318378F974DC}"
+			progid="nta.CLCHttpResponseSU00SI10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{60AB89F6-7122-470B-99D1-7A7E64CA5438}"
+			progid="nta.CLCHttpResponseSU00SI20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{AFC96A40-93F9-4DD0-BBCA-97F37E019FBC}"
+			progid="nta.CLCHttpResponseSU00SI30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{075702AD-80FC-4145-BEEF-A03CDADF1F75}"
+			progid="nta.CLCHttpResponseSU00SJ10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{78B2392C-D2F1-45D0-81A6-EA73D63535B0}"
+			progid="nta.CLCHttpResponseSU00SK10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{6187A1DA-221B-4F51-B27D-771E58264449}"
+			progid="nta.CLCHttpResponseSU00SK20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{2AA7303B-935E-47E6-9579-3DEA661A8188}"
+			progid="nta.CLCHttpResponseSU00SK30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{CE3853EB-CA51-421F-8867-0D27FB8BEBAA}"
+			progid="nta.CLCHttpResponseSU00SM10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{1DAAE318-40AE-413A-8793-8A6EB7A9A496}"
+			progid="nta.CLCHttpResponseSU00SM20"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{B21251CF-8AA2-43CF-8D06-D56965AE6F58}"
+			progid="nta.CLCHttpResponseSU00SM30"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{8A3A4CB0-7987-4980-B452-7CCA58F3C9BD}"
+			progid="nta.CLCHttpResponseSU00SO10"
+			threadingModel="Apartment"/>
+		<comClass
+			clsid="{4FB235FB-43E5-4015-8767-7C2789E98141}"
+			progid="nta.CLCHttpResponseXE00S010"
+			threadingModel="Apartment"/>
+	<typelib tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" version="1.0" helpdir=""/>
+	</file>
+	<comInterfaceExternalProxyStub
+		name="CLCCommunication Class"
+		iid="{9739DAD2-AA6F-11D6-B71D-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCDisplayIdConversion Class"
+		iid="{9739DAD4-AA6F-11D6-B71D-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestJSON Class"
+		iid="{1750E7C5-8E2C-4668-9E8E-AD11088B3609}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S010 Class"
+		iid="{9739DADA-AA6F-11D6-B71D-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S020 Class"
+		iid="{E6F50DA8-AAB1-11D6-B71E-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S030 Class"
+		iid="{CF6DA96D-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S040 Class"
+		iid="{CF6DA975-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S050 Class"
+		iid="{CF6DA97D-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S060 Class"
+		iid="{E6F50DAC-AAB1-11D6-B71E-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S070 Class"
+		iid="{8123C3D2-AB32-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S080 Class"
+		iid="{8123C3DC-AB32-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S090 Class"
+		iid="{CF6DA981-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S100 Class"
+		iid="{CF6DA985-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S140 Class"
+		iid="{CF6DA989-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S150 Class"
+		iid="{CF6DA98D-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S160 Class"
+		iid="{CF6DA968-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S180 Class"
+		iid="{E6F50DA4-AAB1-11D6-B71E-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S190 Class"
+		iid="{CF6DA991-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S200 Class"
+		iid="{8123C3D8-AB32-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S210 Class"
+		iid="{CF6DA971-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S240 Class"
+		iid="{BC2CC294-AB64-11D6-B720-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S250 Class"
+		iid="{CF6DA979-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S280 Class"
+		iid="{2D068E59-13C4-4EFC-B8BF-ED0F22D88485}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S290 Class"
+		iid="{56FC6722-F7B3-4DCF-A416-41EFB0EB3910}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S300 Class"
+		iid="{5FD69370-49AA-43CF-9A6D-BEE18A29F9A0}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S310 Class"
+		iid="{E78FACE9-8067-4FA6-9406-FF0E6C97147B}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S330 Class"
+		iid="{9DF6F02B-743C-4f68-9A88-B15906BAA028}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S340 Class"
+		iid="{7217B06E-9EFD-4544-8B54-B4AA0AB969FE}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S350 Class"
+		iid="{E795067D-F214-4d36-BE30-38BAF1874ED8}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S360 Class"
+		iid="{C55BA310-1D5B-416d-8E3D-51FBAE29F364}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S400 Class"
+		iid="{2C8EB64A-521C-47A2-AA8D-50C139C44396}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S420 Class"
+		iid="{1500A86B-C186-4B0E-AAEE-0D031A118E0E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S430 Class"
+		iid="{C1E8993F-F490-4735-8CA8-3E9EF3404F09}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S450 Class"
+		iid="{9E577FAB-BB08-4766-868B-D568FAF21D14}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S490 Class"
+		iid="{6D586A2A-D82D-44ca-96B4-F182E0E00474}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S660 Class"
+		iid="{74BF5E5D-0552-44dd-985D-46327FE72C64}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S670 Class"
+		iid="{BE8F7BA2-F43C-4955-AAB3-FEC306807C6F}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S680 Class"
+		iid="{8B60C670-E5BB-4d85-BF56-61360FF50A26}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S690 Class"
+		iid="{320B90B8-94CE-4241-90D4-225334568B4D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S700 Class"
+		iid="{378B58A3-B915-4df8-A70A-EDAF9DBB195F}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S710 Class"
+		iid="{63213003-832B-4c64-92E7-A27B42EE09F8}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S750 Class"
+		iid="{36EEAE62-7A17-4479-B2A0-85C3BC799BFB}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S760 Class"
+		iid="{E6146C19-9D65-4936-BED4-034B4349ED34}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S770 Class"
+		iid="{6E570C56-7C57-4426-B492-D1943FD89A6E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S780 Class"
+		iid="{1843195F-A1F5-4b49-A490-C8EB72CD87A2}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S790 Class"
+		iid="{0B143159-1920-4e2c-ACF2-C884BA5C15E1}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S800 Class"
+		iid="{18F1A55D-9483-4676-A370-94A512AB108D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S810 Class"
+		iid="{CCDDDD32-5E4F-44c2-86BB-C2F5AE18C9D3}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S820 Class"
+		iid="{746E3B85-A76C-4bdb-A792-E9F2BCC906FA}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S830 Class"
+		iid="{3426E5DA-2C85-4834-AFFB-1853D0F72CA7}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S870 Class"
+		iid="{8E2FA254-3C72-4391-8C7E-3E2BE4BB53E5}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S880 Class"
+		iid="{DA0FD856-8781-4ff3-A5FE-99DEF4CDD64A}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S890 Class"
+		iid="{D10C255B-4FD0-4487-922A-5CD509200A18}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S900 Class"
+		iid="{88A86473-560B-45e9-B332-96DD7EA148CD}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S910 Class"
+		iid="{AAC1E79C-96AE-4c20-A9A1-4A1B8C7166E3}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S920 Class"
+		iid="{0E488586-94E7-4407-BEE5-3D982F77711C}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S930 Class"
+		iid="{BC87A01C-2060-4ab5-B34D-16E1BFF4A850}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S940 Class"
+		iid="{59DCA9AF-76C6-4534-8535-0D52519667B7}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S970 Class"
+		iid="{5ACF3094-B318-4ead-9B8B-AA5A26F59C4E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00S980 Class"
+		iid="{3A895F7D-C6DA-4476-8CD3-6986DAE6112D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SA10 Class"
+		iid="{2CF49F52-B799-4116-B977-97A2F8661A6A}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SA20 Class"
+		iid="{36A294BE-C756-4eb9-AF8C-080EA2F44CB7}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SA30 Class"
+		iid="{BBE23898-0EB9-4aaf-A926-F0F6E9F23681}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SB10 Class"
+		iid="{9722CE21-9659-4A89-9AE9-EB1C85F4F417}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SB20 Class"
+		iid="{FDA5C21B-EA8E-457D-AC3F-38023AFCE6AC}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SB30 Class"
+		iid="{712BA3E8-3415-4A47-91A5-8CE4354E1280}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SB40 Class"
+		iid="{D17507B2-0820-4b41-9EC0-D8D7AFDC7387}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SB50 Class"
+		iid="{6BE002EB-DD1F-456e-B035-DCB99BCE7C77}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SB60 Class"
+		iid="{9F2FAC4D-7CCB-4349-B372-195127C7A24D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SD10 Class"
+		iid="{15228D36-267B-48a0-8206-D186F662AAFE}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SG10 Class"
+		iid="{B901D543-45D5-452F-A08C-A4D13BF5B3D0}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SG20 Class"
+		iid="{FF5A778C-AB14-4A12-BB9E-DAA483A5A923}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SH10 Class"
+		iid="{7476F800-2483-4CFA-AE94-5D429518BC79}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SH20 Class"
+		iid="{C4336E2E-29C5-4646-A541-D7C436B95223}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SH30 Class"
+		iid="{646DE432-7172-4708-B8CF-A1C9D614CC3F}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SH40 Class"
+		iid="{D35B90C6-A388-4FA7-828A-3FF8C02D66FA}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SH50 Class"
+		iid="{9DD162E1-D827-4BE5-B28D-5F37012D2AC7}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SI10 Class"
+		iid="{B88293CF-F9E0-41BC-B05D-04B59040599E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SI20 Class"
+		iid="{62794042-394D-49B5-B2B2-F1AA15EE9792}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SI30 Class"
+		iid="{B752466F-D498-43C1-812C-F83218C7F541}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SJ10 Class"
+		iid="{783BFB31-919F-4677-B773-36443180F9CB}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SK10 Class"
+		iid="{82607D95-14D1-4846-AA1E-AD3D82713A45}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SK20 Class"
+		iid="{8530238F-50C0-4491-9503-F1F07FE1829E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SK30 Class"
+		iid="{992B4632-94EB-4770-A494-5DADD292BAA5}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SM10 Class"
+		iid="{E15B7170-0208-44F9-9237-639E3C41BAB6}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SM20 Class"
+		iid="{FBB8489B-73D6-4CCB-B3BA-760A08071403}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SM30 Class"
+		iid="{F3F96FCB-6860-44AF-9F5D-3A1F2EC732A8}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestSU00SO10 Class"
+		iid="{5A89A7D3-BE56-4894-AB6F-A0CB86989FFC}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpRequestXE00S010 Class"
+		iid="{651B4FD4-4369-4893-B69D-81F1099199B5}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseJSON Class"
+		iid="{3C79FDE1-CCEF-47b0-AB87-1091305334B2}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseJznChkKekka Class"
+		iid="{B42B6737-A80C-4275-AA07-C8878445EDAC}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseJznChkSzkTaxKekka Class"
+		iid="{631441AC-1D36-4F7D-92B5-CE57E133EB4A}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S010 Class"
+		iid="{9739DADF-AA6F-11D6-B71D-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S020 Class"
+		iid="{E6F50DAA-AAB1-11D6-B71E-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S030 Class"
+		iid="{CF6DA96F-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S040 Class"
+		iid="{CF6DA977-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S050 Class"
+		iid="{CF6DA97F-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S060 Class"
+		iid="{E6F50DAE-AAB1-11D6-B71E-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S070 Class"
+		iid="{8123C3D4-AB32-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S080 Class"
+		iid="{CF6DA966-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S090 Class"
+		iid="{CF6DA983-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S100 Class"
+		iid="{CF6DA987-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S140 Class"
+		iid="{CF6DA98B-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S150 Class"
+		iid="{CF6DA98F-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S160 Class"
+		iid="{CF6DA96B-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S180 Class"
+		iid="{E6F50DA6-AAB1-11D6-B71E-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S190 Class"
+		iid="{CF6DA993-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S200 Class"
+		iid="{8123C3DA-AB32-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S210 Class"
+		iid="{CF6DA973-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S240 Class"
+		iid="{BC2CC296-AB64-11D6-B720-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S250 Class"
+		iid="{CF6DA97B-AB3B-11D6-B71F-000103451488}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S260 Class"
+		iid="{A04390CF-9F48-4F6D-84A9-B5EC237050DA}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S270 Class"
+		iid="{60D6FEFA-BB05-448B-999B-75DD2D339A7F}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S280 Class"
+		iid="{29DFCC24-36AC-4B28-873A-2B40162725D4}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S290 Class"
+		iid="{2B31C68E-5CB2-408C-A819-10256D91CDE6}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S300 Class"
+		iid="{819F6D52-428B-45EE-B132-84DA99C5838D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S310 Class"
+		iid="{3F9E1D56-1748-4150-A864-FED8B794F994}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S330 Class"
+		iid="{1B492EC9-88EB-465f-BFFF-F813ACE6821E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S340 Class"
+		iid="{5D8022DA-057B-43c8-9EE9-E23E66CA9547}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S350 Class"
+		iid="{36A1DDC8-8E78-479b-884F-0137FC0DC97A}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S360 Class"
+		iid="{9C84EC2B-6CEB-4ff9-B02B-0A27F8D9FCF8}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S400 Class"
+		iid="{61CDC34B-B9CA-40CF-9320-25279072C25E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S420 Class"
+		iid="{59BEFFAE-17F2-4A31-96D1-558ABC929262}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S430 Class"
+		iid="{D19936ED-71A9-4456-BB8E-D2F5EA3025D2}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S450 Class"
+		iid="{DDA6B69D-32C1-4265-B8B9-2D33406FC964}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S490 Class"
+		iid="{54B43707-27CB-4fc7-A2BD-5CFACBC36678}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S660 Class"
+		iid="{E1A7E7E2-AAD0-4b87-89E1-59729F4A722C}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S670 Class"
+		iid="{E94F96A7-0A92-4003-AB22-D6E1D31B6605}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S680 Class"
+		iid="{760555F2-3B8D-4e0b-84F7-1F029BB7CF53}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S690 Class"
+		iid="{A1BE031C-5373-4101-A6F5-67090DF102D1}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S700 Class"
+		iid="{EBA9C8E6-2B4A-45b3-A75A-D7164F58C4E6}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S710 Class"
+		iid="{DF8FFD31-BF5B-4607-B3A3-ECB7BA0F3F56}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S750 Class"
+		iid="{6A8B00DE-F990-4450-B1DB-08B62DC38E49}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S760 Class"
+		iid="{03D95424-1207-4855-8145-DA905ECFEC88}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S770 Class"
+		iid="{229BE13D-9F82-4b03-B12C-BCD332A6263F}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S780 Class"
+		iid="{7536EBBC-1685-4eae-A178-093B89D5CDCB}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S790 Class"
+		iid="{EFFFA53F-F16A-407a-85E9-243C93CCFAE9}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S800 Class"
+		iid="{ED8A08D3-52AF-4969-89B7-ED98E68A8096}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S810 Class"
+		iid="{E5A47515-F4C2-4356-9DF3-1BC1F0BF1EB5}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S820 Class"
+		iid="{08838826-22FA-45a1-A901-6953D8AA1AC4}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S830 Class"
+		iid="{207DAF7C-61B1-4f51-B7EA-4BF9EA93C83D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S870 Class"
+		iid="{B66D60AD-8632-4cae-B5CD-5EBF57FB2B53}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S880 Class"
+		iid="{2905E109-8D41-472a-A03D-D783A0176BA2}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S890 Class"
+		iid="{C0EDA79E-62AB-40cd-8C7E-40DB54ABB4DE}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S900 Class"
+		iid="{B3EE8851-03B8-416e-A51E-BCA2CF759336}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S910 Class"
+		iid="{502DD630-95D8-4a27-84D4-5878D8C1F60B}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S920 Class"
+		iid="{2FB1A102-2A78-418d-8D39-7A392C495F5E}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S930 Class"
+		iid="{BFA5388E-8D6D-4961-831A-0F80E483E696}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S940 Class"
+		iid="{FBECC6C7-94E2-49a0-A0DC-13241C62A097}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S970 Class"
+		iid="{89B88229-91E2-4fdf-923D-FB8F08994984}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00S980 Class"
+		iid="{317C5874-C9E3-4901-8F77-3B6E0E101DD6}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SA10 Class"
+		iid="{0E363378-378C-4439-9A2C-15EA849EF62A}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SA20 Class"
+		iid="{301F44D4-9033-4a45-88D6-EE52FE0F8E72}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SA30 Class"
+		iid="{CA298637-AC2D-4cae-8BA2-6AAF68152B44}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SB10 Class"
+		iid="{508E53D2-84C5-41E4-B3FC-86DC7927BEB2}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SB20 Class"
+		iid="{2468B140-3E56-4496-9CAF-07D698216E57}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SB30 Class"
+		iid="{F6F94AC5-C424-47E1-8708-04B6F9977DC3}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SB40 Class"
+		iid="{EEC64E30-8B69-410a-8F1B-136744732C56}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SB50 Class"
+		iid="{0B1EC6FF-5E03-4fb5-9634-0FA5C9089B66}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SB60 Class"
+		iid="{23300BA6-BF5F-42dc-B48C-C1FC8E42FDC9}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SD10 Class"
+		iid="{D636E736-ABB3-4370-B3A9-F01B416C880A}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SG10 Class"
+		iid="{3F5DCFF1-8965-44FF-BCB2-0B3BF31011D8}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SG20 Class"
+		iid="{F4B7EEE3-22E6-48E3-B91A-88AE6725804F}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SH10 Class"
+		iid="{B3602F53-C306-47C6-99DA-A64359A6F266}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SH20 Class"
+		iid="{1B844F5C-CCB3-4C02-BE19-E12FC9B3790D}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SH30 Class"
+		iid="{69EB5467-8CAB-45F3-BC51-21F62CEDBBF1}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SH40 Class"
+		iid="{F1760CC1-BD68-44C6-A185-8CAA8D704FA8}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SH50 Class"
+		iid="{A3676CE0-A42B-4296-9368-3A818297CE73}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SI10 Class"
+		iid="{5365D786-5115-4DB1-A147-318378F974DC}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SI20 Class"
+		iid="{60AB89F6-7122-470B-99D1-7A7E64CA5438}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SI30 Class"
+		iid="{AFC96A40-93F9-4DD0-BBCA-97F37E019FBC}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SJ10 Class"
+		iid="{075702AD-80FC-4145-BEEF-A03CDADF1F75}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SK10 Class"
+		iid="{78B2392C-D2F1-45D0-81A6-EA73D63535B0}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SK20 Class"
+		iid="{6187A1DA-221B-4F51-B27D-771E58264449}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SK30 Class"
+		iid="{2AA7303B-935E-47E6-9579-3DEA661A8188}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SM10 Class"
+		iid="{CE3853EB-CA51-421F-8867-0D27FB8BEBAA}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SM20 Class"
+		iid="{1DAAE318-40AE-413A-8793-8A6EB7A9A496}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SM30 Class"
+		iid="{B21251CF-8AA2-43CF-8D06-D56965AE6F58}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseSU00SO10 Class"
+		iid="{8A3A4CB0-7987-4980-B452-7CCA58F3C9BD}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+	<comInterfaceExternalProxyStub
+		name="CLCHttpResponseXE00S010 Class"
+		iid="{4FB235FB-43E5-4015-8767-7C2789E98141}"
+		proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+		baseInterface="{00000000-0000-0000-C000-000000000046}"
+		tlbid="{9739DAC5-AA6F-11D6-B71D-000103451488}" />
+</assembly>
+<!--　Reg-Free COM　-->
